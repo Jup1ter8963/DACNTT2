@@ -1,0 +1,28 @@
+/* styles/TiptapEditor.css */
+.editor-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .editor-content {
+    min-height: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .editor-content:focus {
+    outline: none;
+    border-color: #0070f3;
+  }
+  
+  .editor-toolbar {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
